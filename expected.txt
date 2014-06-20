@@ -1,0 +1,45 @@
+snippet_status {
+  status: DISAPPROVED
+  buyer_creative_id: "buyer_creative_id_test"
+  width: 300
+  height: 250
+  advertiser_id: 12345
+  detected_product_category: 10004
+  detected_product_category: 10019
+  detected_product_category: 10108
+  detected_product_category: 10168
+  detected_product_category: 10756
+  detected_product_category: 10885
+  detected_product_category: 12204
+  detected_product_category: 13094
+  detected_product_category: 13418
+  detected_product_category: 13432
+  source: RTB
+  click_through_url: "http://www.test.com/"
+  disapproval_reason {
+    reason: PROBLEM_WITH_CLICK_MACRO
+    detail: "No click macro was declared in the snippet"
+  }
+  snippet_correction {
+    type: VENDOR_IDS
+    detail: "test correction detail 1"
+    detail: "test correction detail 2"
+  }
+  snippet_correction {
+    type: FLASH_ATTRIBUTE
+    detail: "test correction detail 3"
+    detail: "test correction detail 4"
+  }
+  snippet_filtering {
+    date: "1900-01-01"
+    item {
+      filtering_status: 1
+      filtering_count: 200
+    }
+    item {
+      filtering_status: 2
+      filtering_count: 100
+    }
+  }
+  is_ssl_capable: true
+}
