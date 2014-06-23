@@ -1,4 +1,4 @@
-# Snippt Status Report Generator #
+# Snippet Status Report Generator #
 
 A Python program to generate Snippet Status Reports in txt, protocol buffer, and
 csv format.
